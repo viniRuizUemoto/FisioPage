@@ -1,0 +1,432 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+.but {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3%;
+    padding-right: 3px;
+    padding-left: 3px ;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: relative;
+    border: none;
+    box-shadow: 1px 1px 1px;
+    pointer-events: auto;
+    cursor: pointer;
+    font-family: bely-display, sans-serif;
+}
+
+div#muscle-map{
+    position: relative;
+    
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3px;
+    padding-left: 3px ;
+    justify-content: center;
+    align-items: center;
+}
+.BG{
+    z-index: 1;
+    width: 100%;
+    max-width: 500px;
+    min-width: 50px;
+}
+
+.musc:hover {
+    opacity: 1;
+}
+
+.musc{
+    opacity: 0;
+    z-index: 5;
+    position: absolute;
+}
+
+.musc_show{
+    opacity: .7;
+    z-index: 5;
+    position: absolute;
+}
+.musc_show:hover{
+    opacity: 1;
+}
+
+img#Abd {
+    height: 19%;
+    top: 27.6%;
+    left: 15.9%;
+}
+#inp_Abd {
+    top: 31%;
+    left: 44%;
+}
+
+img#pesc {
+    height: 3.7%;
+    top: 9.9%;
+    left: 40.2%;
+}
+
+input#inp_pesc {
+    top: 14%;
+    left: 43%;
+}
+
+
+
+img#VE {
+    height: 13%;
+    top: 57.2%;
+    left: 55.5%;
+}
+#inp_VE {
+    top: 65%;
+    left: 57%;
+}
+
+
+img#AntEsq {
+    height: 14%;
+    top: 32.5%;
+    left: 80.75%;
+}
+input#inp_AntEsq {
+    top: 44%;
+    left: 101%;
+}
+
+
+img#BicpEsq {
+    height: 13%;
+    top: 22.6%;
+    left: 74.5%;
+}
+#inp_BicpEsq {
+    top: 26%;
+    left: 98%;
+}
+
+
+#cotoveloEsq {
+    height: 5.3%;
+    top: 31.6%;
+    left: 89%;
+}
+#inp_cotoveloEsq {
+    top: 33%;
+    left: 103%;
+}
+
+#ombroEsq {
+    height: 9.8%;
+    top: 15.9%;
+    left: 71.9%;
+}
+#inp_ombroEsq {
+    top: 19%;
+    left: 94%;
+}
+
+#TrapzEsq {
+    height: 5.8%;
+    top: 12.9%;
+    left: 23.9%;
+}
+#inp_TrapzEsq {
+    top: 11%;
+    left: 69%;
+}
+
+#PeitoEsq {
+    height: 9%;
+    top: 17.8%;
+    left: 50%;
+}
+#inp_PeitoEsq {
+    top: 20%;
+    left: 55%;
+}
+
+#VLEsq {
+    height: 14.5%;
+    top: 54.1%;
+    left: 72.9%;
+}
+#inp_VLEsq {
+    top: 63%;
+    left: 82%;
+}
+
+#FemEsq {
+    height: 18.9%;
+    top: 46.4%;
+    left: 61.8%;
+}
+#inp_FemEsq {
+    top: 56%;
+    left: 68%;
+    width: 7%;
+}
+
+
+#SerrEsq {
+    height: 8%;
+    top: 24.7%;
+    left: 60.5%;
+}
+#inp_SerrEsq {
+    top: 28%;
+    left: 63%;
+    width: 7%;
+}
+
+#FacEsq {
+    height: 8.5%;
+    top: 43.1%;
+    left: 71.5%;
+}
+#inp_FacEsq {
+    top: 44.1%;
+    left: 74.5%;
+    width: 6%;
+}
+
+#SartEsq {
+    height: 21.1%;
+    top: 43.4%;
+    left: 52.35%;
+}
+#inp_SartEsq {
+    top: 52%;
+    left: 55%;
+    width: 7%;
+}
+
+#FibEsq {
+    height: 16%;
+    top: 73.1%;
+    left: 58.7%;
+}
+#inp_FibEsq {
+    top: 86%;
+    left: 54%;
+}
+#TibEsq {
+    height: 14.6%;
+    top: 75.2%;
+    left: 67.05%;
+}
+#inp_TibEsq {
+    top: 93%;
+    left: 75%;
+}
+
+#GasEsq {
+    height: 16.8%;
+    top: 73.15%;
+    left: 75.5%;
+}
+#inp_GasEsq {
+    top: 85.2%;
+    left: 84.5%;
+}
+
+
+
+
+
+
+
+img#VD {
+    height: 13%;
+    top: 55.6%;
+    right: 55.5%;
+}
+#inp_VD {
+    top: 63%;
+    right: 57%;
+}
+
+
+img#AntDir {
+    height: 14%;
+    top: 32.5%;
+    right: 80.75%;
+}
+input#inp_AntDir {
+    top: 44%;
+    right: 101%;
+}
+
+
+img#BicpDir {
+    height: 13%;
+    top: 22.6%;
+    right: 74.5%;
+}
+#inp_BicpDir {
+    top: 26%;
+    right: 98%;
+}
+
+
+#cotoveloDir {
+    height: 5.3%;
+    top: 31.6%;
+    right: 89%;
+}
+#inp_cotoveloDir {
+    top: 33%;
+    right: 103%;
+}
+
+#ombroDir {
+    height: 9.8%;
+    top: 15.9%;
+    right: 71.9%;
+}
+#inp_ombroDir {
+    top: 19%;
+    right: 94%;
+}
+
+#TrapzDir {
+    height: 6.1%;
+    top: 10.6%;
+    right: 58.5%;
+}
+#inp_TrapzDir {
+    top: 11%;
+    right: 69%;
+}
+
+#PeitoDir {
+    height: 9%;
+    top: 17.8%;
+    right: 50%;
+}
+#inp_PeitoDir {
+    top: 20%;
+    right: 55%;
+}
+
+#VLDir {
+    height: 14.75%;
+    top: 52.4%;
+    right: 71.6%;
+}
+#inp_VLDir {
+    top: 63%;
+    right: 82%;
+}
+
+#FemDir {
+    height: 18.9%;
+    top: 45.2%;
+    right: 60.4%;
+}
+#inp_FemDir {
+    top: 55%;
+    right: 65%;
+    width: 7%;
+}
+
+
+#SerrDir {
+    height: 8%;
+    top: 24.5%;
+    right: 60.5%;
+}
+#inp_SerrDir {
+    top: 28%;
+    right: 63%;
+    width: 7%;
+}
+
+#FacDir {
+    height: 8.3%;
+    top: 41.8%;
+    right: 70.3%;
+}
+#inp_FacDir {
+    top: 44.1%;
+    right: 74.5%;
+    width: 6%;
+}
+
+#SartDir {
+    height: 21.1%;
+    top: 42%;
+    right: 50.9%;
+}
+#inp_SartDir {
+    top: 50%;
+    right: 55%;
+    width: 7%;
+}
+
+#FibDir {
+    height: 17%;
+    top: 71.6%;
+    right: 74.3%;
+}
+#inp_FibDir {
+    top: 86%;
+    right: 84.5%;
+    
+}
+#TibDir {
+    height: 14.1%;
+    top: 74.1%;
+    right: 65.9%;
+}
+#inp_TibDir {
+    top: 93%;
+    right: 75%;
+}
+
+#GasDir {
+    height: 17.2%;
+    top: 71.9%;
+    right: 59.5%;
+}
+#inp_GasDir {
+    top: 85.2%;
+    right: 54%;
+}
+
+
+
+
+
+.dor {
+    width: 10%;
+    position: absolute;
+    opacity: 1;
+    z-index: 5;
+    box-shadow: 2px 2px 2px;
+}
+
+.dor_inv {
+    width: 1.2%;
+    position: absolute;
+    opacity: 0;
+    
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
